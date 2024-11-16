@@ -1,0 +1,36 @@
+# Игнорируем папки сборки
+/out/
+build/
+CMakeFiles/
+
+# Игнорируем временные файлы, создаваемые CMake
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Игнорируем временные файлы Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Игнорируем бинарные файлы и артефакты сборки
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.log
+
+# Игнорируем временные файлы и резервные копии
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Игнорируем автогенерируемые файлы IDE
+.idea/
+*.iml
+
+# Игнорируем системные файлы
+.DS_Store
+Thumbs.db
